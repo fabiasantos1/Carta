@@ -1,0 +1,179 @@
+/*
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color:darkgrey ;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+header {
+  background-color:black ;
+  padding: 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  color: aqua;
+  
+  font-size: 2.8em;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+header h1:hover {
+  color: #fff;
+}
+
+p {
+  width: 75%;
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.6;
+  margin: 50px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ a {
+  color: #00e0ff;
+  margin: 50px;
+  font-size: 4.5em;
+  
+  transition: box-shadow 0.25s ease-in-out;
+}
+
+footer {
+  width: 100%;
+  background-color: cadetblue;
+  padding: 10px;
+  text-align: center;
+}
+
+footer span {
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+*/
+
+ /* ======  OUTRAS AUTERAÇÕES ABAIXO  ====== */
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: darkgrey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+header {
+  background-color: black;
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  color: aqua;
+  font-size: 2.8em;
+  font-weight: 400;
+  cursor: pointer;
+  text-align: center;
+}
+
+header h1:hover {
+  color: #fff;
+}
+
+p {
+  width: 80%;
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.6;
+  margin: 50px 0;
+  text-align: center; /* Texto centralizado */
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 20px 0;
+}
+
+nav a {
+  color: #00e0ff;
+  margin: 0 20px;
+  font-size: 3em;
+  transition: box-shadow 0.25s ease-in-out;
+}
+
+nav a:hover {
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 224, 255, 0.6);
+}
+
+footer {
+  width: 100%;
+  background-color: cadetblue;
+  padding: 10px;
+  text-align: center;
+}
+
+footer span {
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2.2em;
+  }
+
+  p {
+    width: 90%;
+    font-size: 1em;
+  }
+
+  nav {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  nav a {
+    margin: 0 20px;
+    font-size: 2.5em;
+  }
+}
+
